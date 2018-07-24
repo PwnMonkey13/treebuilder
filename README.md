@@ -9,8 +9,7 @@ $ npm install
 ```
 ## How to use
 
-Run the following with your parameters.
-treebuilder(data, config);
+Run the following command with your parameters.
 
 ```javascript
 let tree = treebuilder(data, 
