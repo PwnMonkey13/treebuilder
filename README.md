@@ -23,8 +23,9 @@ let tree = treebuilder(data,
 
 ## Examples:
 
+```javascript
 npm run sample1
-
+```
 The example will do a toString over Mongoose ObjectIds
 
 ```javascript
@@ -50,28 +51,30 @@ Expecting :
 
 ```javascript
 [ 
-    { _id: 57f6c369e23b64858d871ce4,
-    name: 'A',
+    { _id: "57f6c369e23b64858d871ce4",
+    name: "A",
     children:
     [ 
         { 
-            parent: 57f6c369e23b64858d871ce4,
-            _id: 57f6c369e23b64858d871ce6,
-            name: 'A1',
+            parent: "57f6c369e23b64858d871ce4",
+            _id: "57f6c369e23b64858d871ce6",
+            name: "A1",
             children:
             [ 
-                { parent: 57f6c369e23b64858d871ce6,
-                    _id: 57f6c369e23b64858d871ce8,
-                    name: 'A11' 
+                { parent: "57f6c369e23b64858d871ce6",
+                    _id: "57f6c369e23b64858d871ce8",
+                    name: "A11" 
                 }
             ]
         }
         { 
-            parent: 57f6c369e23b64858d871ce4,
-            _id: 57f6c369e23b64858d871ce7,
-            name: 'A2' 
+            parent: "57f6c369e23b64858d871ce4",
+            _id: "57f6c369e23b64858d871ce7",
+            name: "A2" 
         }
     },
-    { _id: 57f6c369e23b64858d871ce5, name: 'B' }
+    { 
+        _id: "57f6c369e23b64858d871ce5", 
+        name: "B" }
 ]
 ```
